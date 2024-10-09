@@ -1,0 +1,18 @@
+<suite parallel="tests" name="Suite">
+<listeners>
+<listener class-name="seleniumFrameworkDesign.TestComponents.Listners"/>
+</listeners>
+<test thread-count="5" name="Submit Order Test">
+<classes>
+<class name="Ecommerce.SeleniumFrameworkDesign.Tests.SubmitOrderTest"/>
+</classes>
+</test>
+<!--  Test  -->
+<test thread-count="5" name="Error Validations Test">
+<classes>
+<class name="Ecommerce.SeleniumFrameworkDesign.Tests.ErrorValidation"/>
+</classes>
+</test>
+<!--  Test  -->
+</suite>
+<!--  Suite  -->
