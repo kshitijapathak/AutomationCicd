@@ -23,7 +23,7 @@ public class LandingPage extends AbstractComponent {
 	
 
 	//WebElement userEmail = driver.findElement(By.id("userEmail"));
-	
+	//comment for testing purpose 
 	//PageFactory
 	@FindBy(id="userEmail")
 	WebElement userEmail;
